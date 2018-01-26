@@ -44,8 +44,8 @@
     #define BAR_PADDING_HIGH            1
 
     #define GRAPH_PIXEL_ON(i, j)        printf("%c", 219)
-    #define GRAPH_PIXEL_WARNING(i, j)   printf("%c", 177)
-    #define GRAPH_PIXEL_DANGER(i, j)    printf("%c", 176)
+    #define GRAPH_PIXEL_WARNING(i, j)   printf("%c", 82)
+    #define GRAPH_PIXEL_DANGER(i, j)    printf("%c", 35)
     #define GRAPH_PIXEL_OFF(i, j)       printf("-")
     #define GRAPH_NEXT_ROW()            printf("\n")
     #define GRAPH_RESET()               0

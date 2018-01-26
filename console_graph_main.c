@@ -19,6 +19,7 @@ int main(int args, char** argv) {
 
     while (1) {
         printf("Press <ENTER> to continue: ");
+        fflush(stdout);
         c = fgetc(stdin);
         if (c != '\n') break;
 
